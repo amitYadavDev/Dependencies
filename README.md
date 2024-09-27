@@ -27,6 +27,15 @@
     implementation("androidx.cardview:cardview:1.0.0")
 
 ##   Room db
+
+#  plugins
+ 
+    id("com.android.application")
+    id("org.jetbrains.kotlin.android")
+    id("org.jetbrains.kotlin.kapt")
+    id("dagger.hilt.android.plugin")
+    id("kotlin-kapt")
+
     implementation("androidx.room:room-common:2.6.1")
     implementation("androidx.room:room-ktx:2.6.1")
     kapt("androidx.room:room-compiler:2.6.1")

@@ -24,6 +24,9 @@
     implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
     kapt("com.google.dagger:hilt-compiler:2.50")
 
+     // gson
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+
 ##   CardView
     implementation("androidx.cardview:cardview:1.0.0")
 
@@ -31,12 +34,19 @@
     implementation("androidx.room:room-common:2.6.1")
     implementation("androidx.room:room-ktx:2.6.1")
     kapt("androidx.room:room-compiler:2.6.1")
+    implementation("androidx.room:room-paging:2.6.1")
 
-#   Work manager
+## Pagination
+    // Paging
+    implementation("androidx.paging:paging-runtime-ktx:3.1.1")
+    implementation("androidx.paging:paging-compose:1.0.0-alpha17")
+    
+
+##   Work manager
     implementation("androidx.work:work-runtime-ktx:2.9.0")
 
 
-#  plugins
+##  plugins
  
     id("com.android.application")
     id("org.jetbrains.kotlin.android")

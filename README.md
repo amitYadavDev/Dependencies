@@ -1,8 +1,5 @@
 # Dependencies
 
-##   hilt viewModel
-    implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
-
 ##   Gemini - Generative AI
     implementation("com.google.ai.client.generativeai:generativeai:0.9.0")
 

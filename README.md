@@ -21,9 +21,6 @@
     implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
     kapt("com.google.dagger:hilt-compiler:2.50")
 
-     // gson
-    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
-
 ##   CardView
     implementation("androidx.cardview:cardview:1.0.0")
 
